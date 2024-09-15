@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    uses: esphome/workflows/.github/workflows/publish.yml@main
+    uses: publish.yml
     with:
       files: config/test.yaml
       name: Your Project Name
